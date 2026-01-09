@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lexend+Deca:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+html{
+  height:100%;
+}
+body {
+  background-color: #fdddb2;
+  background-image: url("ItchBackground.png");
+  color: #684515;
+  padding: 10px;
+  font-family:'Lexend Deca';
+  word-wrap: break-word;
+  height:100%;
+}
+
+img{
+  outline-width: 4px;
+  outline-color: #684515;
+  outline-style: solid;
+  border-radius: 5px;
+}
+
+.header {
+  position: fixed;
+  background-color: #dbab80;
+  padding: 1%;
+  height: fit-content;
+  vertical-align: middle;
+  text-align: right;
+  line-height: 500%;
+  right:0px;
+  left:0px;
+  top: 0px;
+  border-color: #684515;
+  border-style: solid;
+  border-width: 2px;
+  z-index: 2;
+}
+
+.header span {
+  text-align: left;
+}
+
+.header img {
+  width:10%;
+  padding: 2px;
+  margin-inline: 2.5%;
+  border-radius: 4px;
+  vertical-align: middle;
+  outline: none;
+}
+
+.name{
+  display: inline;
+  vertical-align: middle;
+  height: 100%;
+  font-size: 50px;
+}
+
+.title{
+  font-size: 750%;
+  text-align: center;
+  margin:0;
+}
+
+.subtitle{
+  font-size: 325%;
+  text-align: center;
+  margin:0;
+}
+
+.footer {
+  background-color: #dbab80;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+h5{
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+}
+
+.topnav {
+  border-radius: 5px;
+}
+
+.left {
+  position: absolute;
+  left: 0%;
+  bottom: 15%;
+  top: 15%;
+  right:60%
+}
+
+a{
+  border-radius: 5px;
+  text-align: center;
+  padding: 1.25%;
+  text-decoration: none;
+  font-size: 24px;
+  color: #684515;
+}
+
+a:hover{
+  background-color: #a2773c;
+}
+a:active{
+  background-color: #a2773c;
+}
+
+
+.footer a{
+  font-size: 100%;
+  color:inherit;
+}
+
+.footer a:hover{
+  background-color:  #68450000;
+  text-decoration: underline;
+}
+.footer a:active{
+  background-color: #68450000;
+  text-decoration: underline;
+}
+
+.dropdown{
+  display: inline;
+  position: relative;
+  border: none;
+  cursor: pointer;
+  background-color: #dbab80;
+  color: #684515;
+  font-family:'Lexend Deca';
+  border-radius: 5px;
+  text-align: center;
+  padding: 1.25%;
+  text-decoration: none;
+  font-size: 24px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+
+.dropdown-content {
+  font-size: 100%;
+  display: none;
+  position: absolute;
+  left:0;
+  top: 100%;
+  z-index: 1;
+  min-width: 200%;
+  line-height: 200%;
+}
+
+.dropdown-content a {
+  padding-inline-start: 2.5%;
+  padding-inline-end: 5%;
+  float: none;
+  font-size: 75%;
+  color: #684515;
+  background-color: #dbab80;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  border-radius: 0;
+}
+
+.dropdown-content a:hover {
+  background-color: #a2773c;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover{
+  background-color: #a2773c;
+}
+
+.txt{
+  font-size: 125%;
+  padding-inline: 7%;
+}
+
+hr{
+  color: #684515;
+}

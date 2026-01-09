@@ -1,0 +1,20 @@
+.discHolder{
+  display: flex;
+  justify-content: space-evenly;
+}
+.projectImgs{
+  width: 300%;
+  display: inline-block;
+  margin-right: 1%;
+}
+.mainImg{
+  width: 100%;
+}
+.txt{
+  padding:0%;
+}
+.infoList{
+  font-size: 125%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
