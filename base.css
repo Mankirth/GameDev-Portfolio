@@ -40,20 +40,31 @@ img{
   text-align: left;
 }
 
-.header img {
-  width:10%;
+#logo{
+  width:8%;
   padding: 2px;
+  padding-inline-start: 5%;
   margin-inline: 2.5%;
   border-radius: 4px;
+  background-color: #68450000;
+}
+
+.header img {
+  width:4%;
   vertical-align: middle;
   outline: none;
+  background-color: #684515;
+  border-radius: 0%;
+}
+
+.header img:hover{
+  background-color: #ffe7ba;
 }
 
 .name{
   display: inline;
   vertical-align: middle;
-  height: 100%;
-  font-size: 50px;
+  font-size: 150%;
 }
 
 .title{
@@ -63,7 +74,7 @@ img{
 }
 
 .subtitle{
-  font-size: 325%;
+  font-size: 400%;
   text-align: center;
   margin:0;
 }
@@ -90,11 +101,11 @@ h5{
   left: 0%;
   bottom: 15%;
   top: 15%;
-  right:60%
+  right:40%
 }
 
 a{
-  border-radius: 5px;
+  border-radius: 10%;
   text-align: center;
   padding: 1.25%;
   text-decoration: none;
@@ -102,12 +113,12 @@ a{
   color: #684515;
 }
 
-a:hover{
+/* a:hover{
   background-color: #a2773c;
 }
 a:active{
   background-color: #a2773c;
-}
+} */
 
 
 .footer a{
@@ -180,7 +191,7 @@ a:active{
 
 .txt{
   font-size: 125%;
-  padding-inline: 7%;
+  padding-inline: 20%;
 }
 
 hr{
