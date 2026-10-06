@@ -88,3 +88,19 @@
 .info a:active{
   background-color: #a2773c;
 }
+
+.cent a{
+  font-size: 3vmin;
+  background-color: #c7956a;
+  padding: 0.8%;
+  padding-inline: 1.5%;
+  outline:solid;
+  margin-inline-start: 44%;
+}
+
+.cent a:hover{
+  background-color: #a2773c;
+}
+.cent a:active{
+  background-color: #a2773c;
+}
